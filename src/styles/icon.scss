@@ -10,7 +10,7 @@
   &--phone {
     background-size: contain;
     text-decoration: none;
-    background-image: url(../imagesMET/Icon-Phone-call.svg);
+    background-image: url(../images/Icon-Phone-call.svg);
     grid-column: 3;
   }
 
@@ -25,7 +25,7 @@
     opacity: 0;
     font-size: 8px;
     transition: opacity 0.3s;
-    
+
     @include onDesktop {
 
       &_item {
@@ -48,16 +48,16 @@
   }
 
   &--menu {
-    background-image: url(../imagesMET/Icon-Burger-menu.svg);
+    background-image: url(../images/Icon-Burger-menu.svg);
 
     &:hover {
-      background-image: url(../imagesMET/Icon-Burger-menu-hover.svg);
+      background-image: url(../images/Icon-Burger-menu-hover.svg);
     }
     grid-column: 4;
   }
 
   &--cross {
-    background-image: url(../imagesMET/Icon-Close.svg);
+    background-image: url(../images/Icon-Close.svg);
     grid-column: 4;
   }
 }
